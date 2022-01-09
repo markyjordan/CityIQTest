@@ -2,18 +2,22 @@
 //  AppDelegate.swift
 //  CityIQ
 //
-//  Created by Marky Jordan on 1/9/22.
+//  Author:         Mark Jordan
+//  Date Modified:  01/09/2022
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Configure Firebase
+        FirebaseApp.configure()
+        
         return true
     }
 

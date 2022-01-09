@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>604322379690-1ainmjun69emea8f3sisocvp03f9ltf1.apps.googleusercontent.com</string>
+	<string>604322379690-4j82u2p7dhgrn29fhsthn32hjo0oscb2.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.604322379690-1ainmjun69emea8f3sisocvp03f9ltf1</string>
+	<string>com.googleusercontent.apps.604322379690-4j82u2p7dhgrn29fhsthn32hjo0oscb2</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCwpnBFfz3PGTuZg-nEnHXy_KvlLoEOKpA</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Mark-Jordan.CityIQ</string>
+	<string>com.Mark-Jordan.CityIQ</string>
 	<key>PROJECT_ID</key>
 	<string>cityiq-6676a</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:604322379690:ios:7b9d70c2b9e3d462e79dd3</string>
+	<string>1:604322379690:ios:9411293acb39719ae79dd3</string>
 </dict>
 </plist>

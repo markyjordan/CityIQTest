@@ -20,7 +20,23 @@ class MapViewVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Store the user's signed-in state.
+        let isSignedIn = UserDefaults.standard.bool(forKey: "user_signed_in")
+        
+        // Present the sign-in view if the user is not currently signed in.
+        if !isSignedIn {
+            let viewController = SignInVC()
+            let navigationController = UINavigationController(rootViewController: viewController)
+            navigationController.modalPresentationStyle = .fullScreen
+            
+            present(navigationController, animated: true)
+        }
     }
     
     // MARK: - Navigation

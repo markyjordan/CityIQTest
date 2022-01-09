@@ -2,7 +2,8 @@
 //  SceneDelegate.swift
 //  CityIQ
 //
-//  Created by Marky Jordan on 1/9/22.
+//  Author:         Mark Jordan
+//  Date Modified:  01/09/2022
 //
 
 import UIKit
