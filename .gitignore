@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------------------- #
+# Project: OSU Beaverhacks Winter 2022 Hackathon - CityIQ                      #
+# Author: Mark Jordan                                                          #
+# Date Modified: January 9, 2022                                               #
+# ---------------------------------------------------------------------------- #
+
+# Temporary macOS Files
+.DS_Store
+.Trashes
+*.swp
+
+# App Packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# User Settings
+xcuserdata/
+xcuserstate/
+.xcuserstate
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# CocoaPods
+Pods/
+!Podfile.lock

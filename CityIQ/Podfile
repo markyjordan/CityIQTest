@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+
+target 'CityIQ' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CityIQ
+
+  target 'CityIQTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CityIQUITests' do
+    # Pods for testing
+  end
+
+  # Pods for SFirebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+
+  # Esri ArcGIS SDK
+  pod 'ArcGIS-Runtime-SDK-iOS'
+  
+end
