@@ -63,7 +63,7 @@ For more info about each of these project dependencies:
 * [Google - Firebase/Auth](https://firebase.google.com/products/auth)
 * [Esri - ArcGIS Runtime API iOS](https://developers.arcgis.com/ios/)
 
-To install the project dependencies, run the following command in the `/CityIQ` directory:
+To install the project dependencies, run the following command in the `CityIQ/CityIQ/` directory:
 ```
 pod install
 ```
